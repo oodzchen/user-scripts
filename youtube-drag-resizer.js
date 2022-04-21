@@ -66,6 +66,7 @@ function init() {
 
     div.classList.add('video-resize-controls')
     div.setAttribute('style', `position: absolute; left: 50%; bottom: 12px; width: 200px; text-align: center; z-index: 99;margin-left: -100px`)
+    videoEl.style.fitObject = 'contain';
     button.textContent = 'Resize Video';
     button.onmousedown = onMouseDown
     button.setAttribute('style', 'margin-right: 10px; cursor: ns-resize')
