@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Persist Twitter(X) Mute
-// @version     0.1.0
+// @version     0.2.0
 // @description Control the global mute for embedded videos on Twitter
 // @namespace   https://github.com/oodzchen/user-scripts
 // @author      Kholin
